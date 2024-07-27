@@ -7,7 +7,7 @@ st.markdown('<style>p { font-size: 16px; }</style>', unsafe_allow_html=True)
  
 st.title(r"Welcome To Billy's English Lesson!")
 
-df = pd.read_excel(r'https://github.com/Riften1220/MyStreamlitApp1/blob/master/data.xlsx',dtype=object)
+df = pd.read_excel(r'https://raw.githubusercontent.com/Riften1220/MyStreamlitApp1/master/data.xlsx',dtype=object)
 
 st.sidebar.title(r'题库选项')
 
